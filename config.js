@@ -123,6 +123,83 @@ var config = {
     ['ebook', '亿书'],    
   ],
 
+  //根主题配置
+  home_topic: {
+    home: {//广场主题  000000000000000000000003
+      _id:3,
+      author_id : 1,
+      tab : "system",
+      content : ">** 用于小伙伴们自由讨论分享的板块** [百度一下，你就知道](http://fanyi.baidu.com/static/translation/img/header/logo_cbfea26.png)",
+      title : "亿书社区广场",
+      deleted : false,
+      target : [
+          ['share','分享'],
+          ['ask', '问题'],  
+          ['job', '招聘'],   
+        ],
+      teams : ['anyone'],//每个帖子创建时都有
+      last_reply_at :  "2017-04-10T07:47:22.563Z",
+      update_at : "2017-04-10T07:47:22.563Z",
+      create_at : "2017-04-10T07:47:22.563Z",
+      collect_count : 0,
+      visit_count : 2,
+      reply_count : 0,
+      lock : false,
+      good : false,
+      top : false,
+      __v : 0
+    },
+    team: {//团队主题
+        _id:2,
+        author_id : 1,
+        tab : "system",
+        content : ">** 团队社区活动的板块** [百度一下，你就知道](http://fanyi.baidu.com/static/translation/img/header/logo_cbfea26.png)",
+        title : "团队互动",
+        deleted : false,
+        target : [
+            ['teamshare','团队分享','anyone'],
+            ['teamask', '团队问题','anyone'],  
+            ['teamjob', '团队招聘','anyone'],   
+          ],
+        teams : ['anyone'],//每个帖子创建时都有
+        last_reply_at :  "2017-04-10T07:47:22.563Z",
+        update_at : "2017-04-10T07:47:22.563Z",
+        create_at : "2017-04-10T07:47:22.563Z",
+        collect_count : 0,
+        visit_count : 2,
+        reply_count : 0,
+        lock : false,
+        good : false,
+        top : false,
+        __v : 0
+      },          
+      ebookchain: {//亿书主题
+        _id:1,
+        author_id : 1,
+        tab : "system",
+        content : ">** 亿书官方资讯频道** [百度一下，你就知道](http://fanyi.baidu.com/static/translation/img/header/logo_cbfea26.png)",
+        title : "亿书官方专版",
+        deleted : false,
+        target : [
+            ['ebookshare','亿书分享'],
+            ['ebookask', '亿书问题'],  
+            ['ebookjob', '亿书招聘'],   
+          ],
+        teams : ['anyone'],//每个帖子创建时都有
+        last_reply_at :  "2017-04-10T07:47:22.563Z",
+        update_at : "2017-04-10T07:47:22.563Z",
+        create_at : "2017-04-10T07:47:22.563Z",
+        collect_count : 0,
+        visit_count : 2,
+        reply_count : 0,
+        lock : false,
+        good : false,
+        top : false,
+        __v : 0
+      },
+  },
+
+
   // 极光推送
   jpush: {
     appKey: 'YourAccessKeyyyyyyyyyyyy',
